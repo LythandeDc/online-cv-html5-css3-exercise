@@ -1,125 +1,250 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Online CV - Web Developer Portfolio">
+	<title>My CV - Web Developer</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Mon CV - Le site web</title>	
-		<link rel="stylesheet" type="text/css" href="style.css" />
-		<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-	</head>
-	
-	<body>
-		<!-- Balise html5 pour l'en-tete -->
-		<header>		
-			<div>
-				<img src="images/logo-pro-web.png" alt="Pro-Web 31" />
-			</div>
-			
-			<div>
-				<h1 id="cv">Mon petit CV en ligne</h2>
-			</div>
-			
-			<!-- Balise html5 pour la navigation (menu) -->
+<body>
+	<header>
 		<nav>
-			<ul class="liens">
-				<li><a href="index.html">Accueil</a></li>
-				<li><a href="a-propos.html">A propos</a></li>
-				<li><a href="#">Me contacter</a></li>
+			<div class="logo">
+				<a href="index.html">JD<span>.</span></a>
+			</div>
+			<ul class="nav-links">
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact" class="nav-cta">Contact</a></li>
 			</ul>
 		</nav>
-			
-		<img src="images/php-development.gif" />
-			
-		</header>
-		
-		
-		<!-- Balise html5 pour une section (une section de la page) -->
-		<section id="main">
-			<!-- Sidebar  en html5 -->
-			<aside class="sidebar">
-				<h3>A propos de l'auteur</h3>
-				<p>C'est moi ! Pour en savoir plus cliquez <a href="a-propos.html">ICI</a></p>
-				
-				<img src="images/Minist%C3%A8re_de_la_Justice_(France)_-_logo.png" class="image-sidebar" />		
-				
-				<h4>En savoir plus</h4>
-				<p>Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula</p>
-				<img src="images/facebook.jpg" class="image-sidebar" />	
-			</aside>
-			
-			<div class="post">
-				<!-- Article en html5 -->
-				<article class="post-2">
-					<h3>J'aime coder en php</h3>
-					<p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla !!!! <br/>
-Ut velit mauris, egestas sed, gravida nec, ornare ut, mi.
-					<ul>
-						<li>Forum</li>
-						<li>Blog</li>
-						<li>Connexion</li>
-					</ul>
-					</p>
-				</article>
 
-				<article class="post-2">
-					<h3>J'aime coder en jQuery</h3>
-					<p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla !!!!</p>
-				</article>
-			
-				<article class="post-2">
-					<h3>Le Lorem Ipsum !</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
-			    </article>
-			</div>
-		</section>
-		
-	<hr/>
-	
-		<!-- Pied de page en html5  -->
-		<footer>
-		<div class="footer">
-			<div id="tweet">
-				<h3>Mon dernier tweet</h3>
-				<br/>
-				<p>Hello les amis !	</p>
-				<em>le 12 Janvier 2016</em>
-			</div>
-			
-			<div id="images-footer">
-				<h3>Mes photos</h3>
-				<img src="images/image1.jpg" />
-				<img src="images/image2.png" />
-				<img src="images/image3.png" />
-				<img src="images/image1.jpg" />
-			</div>
-			
-			<div id="partenaires">
-				<!-- Première liste du footer -->
-				<h3>Nos Partenaires</h3>
-				<div id="liste">
-				<ul>
-					<li><a href="#">Pro-Web 32</a></li>
-					<li><a href="#">Amis</a></li>
-					<li><a href="#">Mercredi</a></li>
-					<li><a href="#">Lorem Ipsum</a></li>
-				</ul>
-				
-				<!-- Deuxième liste du footer -->			
-				<ul>
-					<li><a href="#">Lorem Ipsum 2</a></li>
-					<li><a href="#">Lorem Ipsum 3</a></li>
-					<li><a href="#">Lorem Ipsum 4</a></li>
-					<li><a href="#">Lorem Ipsum 5</a></li>
-				</ul>
+		<div class="hero">
+			<div class="hero-text">
+				<p class="hero-greeting">Hello, I'm</p>
+				<h1>John Doe</h1>
+				<p class="tagline">Full-Stack <span class="accent">Web Developer</span></p>
+				<p class="hero-description">I craft modern, responsive web experiences with clean code and pixel-perfect design.</p>
+				<div class="hero-buttons">
+					<a href="#projects" class="btn btn-primary">View My Work</a>
+					<a href="#contact" class="btn btn-outline">Get in Touch</a>
 				</div>
 			</div>
-			</div>			
-			
-			<p class="copyright">&copy; Copyright <a href="http://www.formation31.fr/">Pro-Web 31</a> - Tous les droits réervés		
-			<a href="#">Me contacter !</a>
-			</p>
-		</footer>
-		
-	</body>
+			<div class="hero-image">
+				<div class="profile-wrapper">
+					<img src="images/profile.jpg" alt="Profile photo" class="profile-photo">
+				</div>
+			</div>
+		</div>
+	</header>
 
+	<main>
+		<section id="about">
+			<div class="section-header">
+				<p class="section-tag">Get to know me</p>
+				<h2>About Me</h2>
+			</div>
+			<div class="about-content">
+				<div class="about-text">
+					<p>I am a full-stack web developer with <strong>5+ years</strong> of experience creating dynamic and user-friendly websites. I specialize in HTML5, CSS3, JavaScript, and PHP.</p>
+					<p>I love turning complex problems into simple, beautiful solutions. When I'm not coding, you'll find me exploring new technologies, contributing to open-source, or enjoying a good cup of coffee.</p>
+				</div>
+				<div class="about-details">
+					<div class="detail-item">
+						<span class="detail-label">Location</span>
+						<span class="detail-value">Toulouse, France</span>
+					</div>
+					<div class="detail-item">
+						<span class="detail-label">Email</span>
+						<span class="detail-value">john.doe@example.com</span>
+					</div>
+					<div class="detail-item">
+						<span class="detail-label">Languages</span>
+						<span class="detail-value">English, French</span>
+					</div>
+					<div class="detail-item">
+						<span class="detail-label">Status</span>
+						<span class="detail-value available">Open to opportunities</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills">
+			<div class="section-header">
+				<p class="section-tag">What I do</p>
+				<h2>Skills &amp; Expertise</h2>
+			</div>
+			<div class="skills-grid">
+				<div class="skill-card">
+					<div class="skill-icon">&#9674;</div>
+					<h3>Front-End</h3>
+					<ul>
+						<li>HTML5 &amp; CSS3</li>
+						<li>JavaScript / TypeScript</li>
+						<li>React</li>
+						<li>Responsive Design</li>
+					</ul>
+				</div>
+				<div class="skill-card">
+					<div class="skill-icon">&#9678;</div>
+					<h3>Back-End</h3>
+					<ul>
+						<li>PHP / Laravel</li>
+						<li>Node.js / Express</li>
+						<li>MySQL / PostgreSQL</li>
+						<li>REST APIs</li>
+					</ul>
+				</div>
+				<div class="skill-card">
+					<div class="skill-icon">&#9881;</div>
+					<h3>Tools &amp; DevOps</h3>
+					<ul>
+						<li>Git / GitHub</li>
+						<li>Docker</li>
+						<li>VS Code</li>
+						<li>Linux / CLI</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="experience">
+			<div class="section-header">
+				<p class="section-tag">Where I've worked</p>
+				<h2>Experience</h2>
+			</div>
+			<div class="timeline">
+				<article class="timeline-item">
+					<div class="timeline-dot"></div>
+					<div class="timeline-date">2022 &mdash; Present</div>
+					<div class="timeline-content">
+						<h3>Senior Web Developer</h3>
+						<p class="company">Tech Solutions Inc.</p>
+						<p>Lead development of client-facing web applications using React and Node.js. Mentored junior developers and implemented CI/CD pipelines.</p>
+					</div>
+				</article>
+				<article class="timeline-item">
+					<div class="timeline-dot"></div>
+					<div class="timeline-date">2019 &mdash; 2022</div>
+					<div class="timeline-content">
+						<h3>Web Developer</h3>
+						<p class="company">Digital Agency Co.</p>
+						<p>Built responsive websites and e-commerce platforms for 30+ clients. Worked with PHP, Laravel, and MySQL on the back-end.</p>
+					</div>
+				</article>
+				<article class="timeline-item">
+					<div class="timeline-dot"></div>
+					<div class="timeline-date">2017 &mdash; 2019</div>
+					<div class="timeline-content">
+						<h3>Junior Developer</h3>
+						<p class="company">StartUp Lab</p>
+						<p>Developed and maintained WordPress sites. Learned modern front-end frameworks and version control with Git.</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="projects">
+			<div class="section-header">
+				<p class="section-tag">My recent work</p>
+				<h2>Projects</h2>
+			</div>
+			<div class="projects-grid">
+				<article class="project-card">
+					<div class="project-image">
+						<img src="images/project1.jpg" alt="E-commerce platform screenshot">
+						<div class="project-overlay">
+							<span>View Project</span>
+						</div>
+					</div>
+					<div class="project-info">
+						<h3>E-Commerce Platform</h3>
+						<p>A full-featured online store built with Laravel and Vue.js, including payment integration and admin dashboard.</p>
+						<div class="project-tags">
+							<span>Laravel</span>
+							<span>Vue.js</span>
+							<span>MySQL</span>
+						</div>
+					</div>
+				</article>
+				<article class="project-card">
+					<div class="project-image">
+						<img src="images/project2.jpg" alt="Task manager app screenshot">
+						<div class="project-overlay">
+							<span>View Project</span>
+						</div>
+					</div>
+					<div class="project-info">
+						<h3>Task Manager App</h3>
+						<p>A real-time task management tool built with React and Node.js, featuring drag-and-drop and team collaboration.</p>
+						<div class="project-tags">
+							<span>React</span>
+							<span>Node.js</span>
+							<span>Socket.io</span>
+						</div>
+					</div>
+				</article>
+				<article class="project-card">
+					<div class="project-image">
+						<img src="images/project3.jpg" alt="Portfolio website screenshot">
+						<div class="project-overlay">
+							<span>View Project</span>
+						</div>
+					</div>
+					<div class="project-info">
+						<h3>Portfolio Website</h3>
+						<p>A responsive portfolio site showcasing creative work, built with vanilla HTML, CSS, and JavaScript.</p>
+						<div class="project-tags">
+							<span>HTML5</span>
+							<span>CSS3</span>
+							<span>JavaScript</span>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="section-header">
+				<p class="section-tag">Let's connect</p>
+				<h2>Contact Me</h2>
+			</div>
+			<div class="contact-content">
+				<p class="contact-intro">Interested in working together? I'd love to hear from you. Drop me a line and let's create something great.</p>
+				<div class="contact-cards">
+					<a href="mailto:john.doe@example.com" class="contact-card">
+						<span class="contact-icon">&#9993;</span>
+						<span class="contact-label">Email</span>
+						<span class="contact-value">john.doe@example.com</span>
+					</a>
+					<a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+						<span class="contact-icon">&#10094;/&#10095;</span>
+						<span class="contact-label">GitHub</span>
+						<span class="contact-value">github.com/johndoe</span>
+					</a>
+					<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+						<span class="contact-icon">in</span>
+						<span class="contact-label">LinkedIn</span>
+						<span class="contact-value">linkedin.com/in/johndoe</span>
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer-content">
+			<p class="footer-logo">JD<span>.</span></p>
+			<p>&copy; 2026 <a href="https://itamde.com">itamde.com</a> &mdash; All rights reserved.</p>
+		</div>
+	</footer>
+</body>
 </html>
